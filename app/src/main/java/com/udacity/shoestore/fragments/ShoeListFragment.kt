@@ -9,6 +9,7 @@ import android.widget.Toast
 import androidx.databinding.DataBindingUtil
 import androidx.navigation.findNavController
 import androidx.navigation.fragment.findNavController
+import com.udacity.shoestore.MainActivity
 import com.udacity.shoestore.R
 import com.udacity.shoestore.databinding.FragmentShoeListBinding
 
@@ -31,6 +32,9 @@ class ShoeListFragment : Fragment() {
         binding.fab.setOnClickListener {
             findNavController().navigate(R.id.action_shoeListFragment_to_shoeDetailsFragment)
         }
+
+        (requireActivity() as MainActivity).hideNavigationArrow()
+        setHasOptionsMenu(true)
 
         return binding.root
     }

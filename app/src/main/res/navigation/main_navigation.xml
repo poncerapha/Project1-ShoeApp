@@ -7,7 +7,7 @@
     <fragment
         android:id="@+id/loginFragment"
         android:name="com.udacity.shoestore.fragments.LoginFragment"
-        android:label="LoginFragment" >
+        android:label="Login">
         <action
             android:id="@+id/action_loginFragment_to_welcomeFragment"
             app:destination="@id/welcomeFragment"
@@ -20,8 +20,8 @@
     <fragment
         android:id="@+id/welcomeFragment"
         android:name="com.udacity.shoestore.fragments.WelcomeFragment"
-        android:label="fragment_welcome"
-        tools:layout="@layout/fragment_welcome" >
+        android:label="Welcome"
+        tools:layout="@layout/fragment_welcome">
         <action
             android:id="@+id/action_welcomeFragment_to_instructionsFragment"
             app:destination="@id/instructionsFragment"
@@ -33,8 +33,8 @@
     <fragment
         android:id="@+id/instructionsFragment"
         android:name="com.udacity.shoestore.fragments.InstructionsFragment"
-        android:label="fragment_instructions"
-        tools:layout="@layout/fragment_instructions" >
+        android:label="Instructions"
+        tools:layout="@layout/fragment_instructions">
         <action
             android:id="@+id/action_instructionsFragment_to_shoeListFragment"
             app:destination="@id/shoeListFragment"
@@ -48,8 +48,8 @@
     <fragment
         android:id="@+id/shoeListFragment"
         android:name="com.udacity.shoestore.fragments.ShoeListFragment"
-        android:label="fragment_shoe_list"
-        tools:layout="@layout/fragment_shoe_list" >
+        android:label="Shoes"
+        tools:layout="@layout/fragment_shoe_list">
         <action
             android:id="@+id/action_shoeListFragment_to_shoeDetailsFragment"
             app:destination="@id/shoeDetailsFragment"
@@ -61,6 +61,6 @@
     <fragment
         android:id="@+id/shoeDetailsFragment"
         android:name="com.udacity.shoestore.fragments.ShoeDetailsFragment"
-        android:label="fragment_shoe_details"
+        android:label="Shoes Details"
         tools:layout="@layout/fragment_shoe_details" />
 </navigation>

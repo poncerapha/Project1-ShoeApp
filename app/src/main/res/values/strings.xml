@@ -9,4 +9,5 @@
     <string name="instructions">In this app, you can create a list with shoes that you want. You can also delete shoes from the list by clicking in the floating button</string>
     <string name="instructions_button">Instructions</string>
     <string name="shoe_list_button">Shoe List</string>
+    <string name="menu_tittle">logout</string>
 </resources>
