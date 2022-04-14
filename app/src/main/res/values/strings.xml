@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ShoeStore</string>
+    <string name="email_hint">e-mail</string>
+    <string name="password_hint">password</string>
+    <string name="create_button">Create Account</string>
+    <string name="login_button">Login</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome">welcome to Show Apps app, on shoe listing app</string>
+    <string name="instructions">In this app, you can create a list with shoes that you want. You can also delete shoes from the list by clicking in the floating button</string>
+    <string name="instructions_button">Instructions</string>
+    <string name="shoe_list_button">Shoe List</string>
+</resources>
