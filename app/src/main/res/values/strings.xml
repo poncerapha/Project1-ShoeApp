@@ -10,4 +10,11 @@
     <string name="instructions_button">Instructions</string>
     <string name="shoe_list_button">Shoe List</string>
     <string name="menu_tittle">logout</string>
+    <string name="shoe_s_name_hint">Shoe`s Name</string>
+    <string name="company_name_hint">Company name</string>
+    <string name="shoe_size_hint">Shoe`s size</string>
+    <string name="description_hint">Description</string>
+    <string name="add_shoe_button">Add Shoe</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="shoe_details_title">Shoe Details</string>
 </resources>

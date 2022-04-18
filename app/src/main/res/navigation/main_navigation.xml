@@ -56,11 +56,21 @@
             app:enterAnim="@anim/fade_in"
             app:exitAnim="@anim/fade_out"
             app:popEnterAnim="@anim/slide_in_left"
-            app:popExitAnim="@anim/slide_out_right" />
+            app:popExitAnim="@anim/slide_out_right" >
+            <argument
+                android:name="shoe"
+                app:argType="com.udacity.shoestore.models.Shoe"
+                app:nullable="true"/>
+        </action>
+
     </fragment>
     <fragment
         android:id="@+id/shoeDetailsFragment"
         android:name="com.udacity.shoestore.fragments.ShoeDetailsFragment"
         android:label="Shoes Details"
-        tools:layout="@layout/fragment_shoe_details" />
+        tools:layout="@layout/fragment_shoe_details" >
+        <action
+            android:id="@+id/action_shoeDetailsFragment_to_shoeListFragment"
+            app:destination="@id/shoeListFragment" />
+    </fragment>
 </navigation>
